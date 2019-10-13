@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_account_info"
+            android:icon="@drawable/pastor_nav"
+            android:title="Аккаунт" />
+        <item
+            android:id="@+id/nav_holy_book"
+            android:icon="@drawable/holybook"
+            android:title="Святе Письмо" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/calendar"
+            android:title="Календар" />
+        <item
+            android:id="@+id/nav_prayer"
+            android:icon="@drawable/pray1"
+            android:title="Молитви" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/note"
+            android:title="Нотатки" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat"
+            android:title="Діалоги" />
+        <item
+            android:id="@+id/nav_GL"
+            android:icon="@drawable/gallary"
+            android:title="Галерея" />
+
+
+
+    </group>
+
+    <item android:title="Info">
+        <menu>
+
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/info"
+                android:title="Інформація" />
+
+
+        </menu>
+    </item>
+    <group />
+
+</menu>

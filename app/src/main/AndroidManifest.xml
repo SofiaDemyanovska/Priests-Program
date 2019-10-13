@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.priestsprogram">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SecretInfo"></activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MyCalendar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Reminders"
+            android:label="Reminder Details" />
+        <activity
+            android:name=".AcountInfo"
+            android:label="Acount Info" />
+        <activity
+            android:name=".Chat"
+            android:label="Chat" />
+        <activity
+            android:name=".DiscussionActivity"
+            android:label="Chat" />
+        <activity
+            android:name=".HolyScripture"
+            android:label="Holy Scripture" />
+        <activity
+            android:name=".Notes"
+            android:label="Notes" />
+        <activity android:name=".DashBoard" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".SignUp" />
+        <activity
+            android:name=".Prayers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Info" />
+        <activity
+            android:name=".DetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="MyGLActivity" >
+
+        </activity>
+    </application>
+
+</manifest>

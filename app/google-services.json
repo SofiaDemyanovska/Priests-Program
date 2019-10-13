@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "631567716745",
+    "firebase_url": "https://priestsprogram.firebaseio.com",
+    "project_id": "priestsprogram",
+    "storage_bucket": "priestsprogram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631567716745:android:de75e5f23748625f",
+        "android_client_info": {
+          "package_name": "com.example.priestsprogram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631567716745-afiiorgbbmlnksnols7v1ugv3raopi14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.priestsprogram",
+            "certificate_hash": "d42c57b30fb3406d3c43a1f612d095a5b9763942"
+          }
+        },
+        {
+          "client_id": "631567716745-153hd60uh90ice9qdf5dcs8ubs1cp7gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG2-GqPJ3apOk3OYuPZWxLn_ItRyoBCqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631567716745-153hd60uh90ice9qdf5dcs8ubs1cp7gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
